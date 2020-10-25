@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { People } from './people'
 import './App.css';
+import { EditPeople } from './editPeople';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
       </header>
       <People />
+      <EditPeople />
     </div>
   );
 }
